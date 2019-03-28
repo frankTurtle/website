@@ -16,18 +16,18 @@
 title: Cool Engineering Stuff!
 email: barret@nobel.engineering
 description: >- # this means to ignore newlines until "baseurl:"
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
+    Just some random thoughts and projects from a budding machine learning engineer on Long Island.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://barret.nobel.engineering' # the base hostname & protocol for your site, e.g. http://example.com
 github_username: frankTurtle
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
     - jekyll-feed
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -39,3 +39,55 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+    # _posts
+    - scope:
+          path: ''
+          type: posts
+      values:
+          layout: single
+          read_time: true
+          comments: false
+          share: true
+          related: true
+          author_profile: true
+    # _pages
+    - scope:
+          path: ''
+          type: pages
+      values:
+          layout: single
+
+# Changing the skin
+minimal_mistakes_skin: 'dark' # "air", "aqua", "contrast", "dark"
+
+author:
+    name: 'Barret J. Nobel'
+    # avatar: ''
+    bio: 'Amateur fitness guy by morning, software engineer by day, and graduate student by night.'
+    location: 'Long Island, NY'
+    links:
+        - label: 'GitHub'
+          icon: 'fab fa-fw fa-github'
+          url: 'https://github.com/frankTurtle'
+        - label: 'Email'
+          icon: 'fas fa-fw fa-envelope-square'
+          url: 'mailto:barret@nobel.engineering'
+
+footer:
+    links:
+        - label: 'GitHub'
+          icon: 'fab fa-fw fa-github'
+          url: 'https://github.com/frankTurtle'
+        - label: 'Email'
+          icon: 'fas fa-fw fa-envelope-square'
+          url: 'mailto:barret@nobel.engineering'
+# paginate: 5
+
+timezone: America/New_York
+
+compress_html:
+    clippings: all
+    ignore:
+        envs: development # disable compression in dev environment
