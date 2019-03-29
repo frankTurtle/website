@@ -1,8 +1,9 @@
 ---
 layout: single
 author_profile: true
+permalink: /
 sidebar:
-    nav: 'docs'
+    nav: 'site'
 ---
 
 # Hello

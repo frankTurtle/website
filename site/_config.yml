@@ -58,13 +58,33 @@ defaults:
           type: pages
       values:
           layout: single
+          author_profile: true
     # _docs
+    # - scope:
+    #       path: ''
+    #       type: site
+    #   values:
+    #       sidebar:
+    #           nav: 'site'
+
+    # _portfolio
     - scope:
           path: ''
-          type: docs
+          type: portfolio
       values:
-          sidebar:
-              nav: 'docs'
+          layout: single
+          author_profile: false
+          share: true
+
+    # _books
+    - scope:
+          path: ''
+          type: books
+      values:
+          layout: single
+          author_profile: false
+          share: true
+
 # Changing the skin
 minimal_mistakes_skin: 'dark' # "air", "aqua", "contrast", "dark"
 
@@ -89,6 +109,7 @@ footer:
         - label: 'Email'
           icon: 'fas fa-fw fa-envelope-square'
           url: 'mailto:barret@nobel.engineering'
+
 # paginate: 5
 
 timezone: America/New_York
@@ -97,3 +118,15 @@ compress_html:
     clippings: all
     ignore:
         envs: development # disable compression in dev environment
+
+# So Jekyll can see all the pages
+include: ['_pages']
+
+# Collections
+collections:
+    portfolio:
+        output: true
+        permalink: /:collection/:path/
+    books:
+        output: true
+        permalink: /:collection/:path/
