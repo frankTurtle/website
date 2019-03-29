@@ -58,7 +58,13 @@ defaults:
           type: pages
       values:
           layout: single
-
+    # _docs
+    - scope:
+          path: ''
+          type: docs
+      values:
+          sidebar:
+              nav: 'docs'
 # Changing the skin
 minimal_mistakes_skin: 'dark' # "air", "aqua", "contrast", "dark"
 
