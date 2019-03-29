@@ -2,8 +2,6 @@
 layout: single
 author_profile: true
 permalink: /
-sidebar:
-    nav: 'site'
 ---
 
 # Hello

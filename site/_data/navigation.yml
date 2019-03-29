@@ -1,15 +1,15 @@
 # Navigation
-site:
-    - title:
-      children:
-          - title: 'Blog'
-            url: /posts/
-          - title: 'About'
-            url: /about/
-          - title: 'Portfolio'
-            url: /portfolio/
-          - title: 'Book Reports'
-            url: /books/
+main:
+    - title: 'About'
+      url: /about/
+    - title: 'Blog'
+      url: /posts/
+    - title: 'Portfolio'
+      url: /portfolio/
+    - title: 'Book Reports'
+      url: /books/
+
+    # How the sidebar nav works
     # - title:
     #   children:
     #       - title: 'Blog'

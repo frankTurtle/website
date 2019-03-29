@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cool Engineering Stuff!
+title: Barret J. Nobel
 email: barret@nobel.engineering
 description: >- # this means to ignore newlines until "baseurl:"
     Just some random thoughts and projects from a budding machine learning engineer on Long Island.
@@ -23,7 +23,6 @@ github_username: frankTurtle
 
 # Build settings
 markdown: kramdown
-# theme: minima
 theme: minimal-mistakes-jekyll
 plugins:
     - jekyll-feed
@@ -31,14 +30,14 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 defaults:
     # _posts
@@ -59,14 +58,6 @@ defaults:
       values:
           layout: single
           author_profile: true
-    # _docs
-    # - scope:
-    #       path: ''
-    #       type: site
-    #   values:
-    #       sidebar:
-    #           nav: 'site'
-
     # _portfolio
     - scope:
           path: ''
@@ -75,7 +66,6 @@ defaults:
           layout: single
           author_profile: false
           share: true
-
     # _books
     - scope:
           path: ''
