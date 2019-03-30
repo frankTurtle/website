@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Barret J. Nobel
+title: Cool Engineering Stuff!
 email: barret@nobel.engineering
 description: >- # this means to ignore newlines until "baseurl:"
     Just some random thoughts and projects from a budding machine learning engineer on Long Island.
@@ -90,6 +90,9 @@ author:
         - label: 'Email'
           icon: 'fas fa-fw fa-envelope-square'
           url: 'mailto:barret@nobel.engineering'
+        - label: 'Lichess'
+          icon: 'fas fa-fw fa-chess'
+          url: 'https://lichess.org/@/franklinturtle'
 
 footer:
     links:
@@ -99,6 +102,9 @@ footer:
         - label: 'Email'
           icon: 'fas fa-fw fa-envelope-square'
           url: 'mailto:barret@nobel.engineering'
+        - label: 'Lichess'
+          icon: 'fas fa-fw fa-chess'
+          url: 'https://lichess.org/@/franklinturtle'
 
 # paginate: 5
 
