@@ -1,0 +1,22 @@
+---
+layout: single
+author_profile: true
+permalink: /barretjnobel/
+---
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: OpenPGP.js v4.4.10
+Comment: https://openpgpjs.org
+
+xjMEXJo/ERYJKwYBBAHaRw8BAQdAPqG5ribffRAAevAYN8soYFpeXsw6TtbR
+hMFs5gT136fNNSJiYXJyZXRAbm9iZWwuZW5naW5lZXJpbmciIDxiYXJyZXRA
+bm9iZWwuZW5naW5lZXJpbmc+wncEEBYKAB8FAlyaPxEGCwkHCAMCBBUICgID
+FgIBAhkBAhsDAh4BAAoJEJbSQaRvgut1RFAA/ApWwTldV31F4wSrArVEjAJh
+2Ftuvc2qBIdlf9XXzDUQAP9uyBkbOVfUWgs+JEBHq1oRrF8STCK3FCjkml1g
+BG1QCM44BFyaPxESCisGAQQBl1UBBQEBB0B8f8xkOocMsX6nuJRMPi7cHj8y
+1Z4LQOFj7mljs6ELXgMBCAfCYQQYFggACQUCXJo/EQIbDAAKCRCW0kGkb4Lr
+de19AP0T0x1O6E8sbtDpJkEhy5vwOAaL9c8qnPzlkMFVvuPy7AEAgRZMTeNU
+y5nCQMBrHFfTHXXU2IoVsOmHk9Y96pa98wk=
+=ZXOO
+-----END PGP PUBLIC KEY BLOCK-----
+```

@@ -15,4 +15,4 @@ He currently works at Canon Information & Imaging Solutions as an Associate Soft
 
 In his spare time he likes to lift weights, box, read and play chess. 
 
-To get in touch, send an email to [barret@nobel.engineering](mailto:barret@nobel.engineering "Bonus points for encryption and your private key!")
+To get in touch, send an email to [barret@nobel.engineering](mailto:barret@nobel.engineering "Bonus points for encryption and your private key!") [(public key)](/barretjnobel/ "ECC (ed25519)")
