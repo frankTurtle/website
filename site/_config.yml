@@ -80,7 +80,7 @@ minimal_mistakes_skin: 'dark' # "air", "aqua", "contrast", "dark"
 
 author:
     name: 'Barret J. Nobel'
-    # avatar: ''
+    avatar: '/assets/profile-me.jpg'
     bio: 'Amateur fitness guy by morning, software engineer by day, and graduate student by night.'
     location: 'Long Island, NY'
     links:
