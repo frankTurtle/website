@@ -1,3 +1,20 @@
+---
+layout: single
+title: 'Creating my first Alexa app'
+date: 2019-04-02 18:00:00 -0400
+categories: boxing aws amazon alexa
+---
+
+# Alexa Boxing Round Timer
+
+I've started diving into the fun and exciting world of building an Alexa app! I am personally a big fan of the platform, and I have one in each room of my house.
+
+Recently I've added one in my gym to play my music while I workout. I also got my heavy bag back up after I knocked it out of the ceiling last week - whoops! - I would like to claim it was because I'm such a heavy hitter, but it was more along the lines of it being because it was held in my ceiling by a single hook. Physics took over and slowly wiggled it out until it fell down. C'est la vie.
+
+Check it out here --> [HERE][portfolio-alexa]
+
+[portfolio-alexa]: /portfolio/alexa-boxing-timer/ 'Boxing Round Timer'
+
 <!-- ---
 layout: single
 title: 'Welcome to Jekyll!'
