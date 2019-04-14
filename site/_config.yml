@@ -109,6 +109,9 @@ author:
         - label: 'Lichess'
           icon: 'fas fa-fw fa-chess'
           url: 'https://lichess.org/@/franklinturtle'
+        - label: 'EA Hub'
+          icon: 'fas fa-lightbulb'
+          url: 'https://eahub.org/profile/barret'
 
 footer:
     links:
@@ -121,6 +124,9 @@ footer:
         - label: 'Lichess'
           icon: 'fas fa-fw fa-chess'
           url: 'https://lichess.org/@/franklinturtle'
+        - label: 'EA Hub'
+          icon: 'fas fa-lightbulb'
+          url: 'https://eahub.org/profile/barret'
 
 paginate: 5
 paginate_path: "/posts:num/"
