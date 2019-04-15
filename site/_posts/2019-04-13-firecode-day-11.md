@@ -254,3 +254,50 @@ Good ol' recursion! First thing it so check if the data passed in exists. When t
 If not, keep recursively calling it together and add together.
 
 I would say it's O(n) runtime and O(1) for space.
+
+## Problem Fourteen
+#### Name:
+Bubble Sort
+
+#### Description:
+Write a function that takes in a list of ints and uses 
+the Bubble Sort algorithm to sort the list 'in place' in ascending order. The method should return the same, in-place sorted list.
+Note: Bubble sort is one of the most inefficient ways to sort a large list of integers. Nevertheless, it is an interview favorite.
+Bubble sort has a time complexity of O(n2). However, if the 
+sample size is small, bubble sort provides a simple implementation of a classic sorting algorithm. 
+
+#### Example:
+```python 
+bubble_sort([5, 4, 3]) -> [3, 4, 5]
+
+bubble_sort([3]) -> [3]
+
+bubble_sort([]) -> []
+
+[] -> [Empty] List 
+```
+
+#### Solution:
+```python
+def bubble_sort(a_list):
+    if not a_list:
+        return []
+    
+    mx = len(a_list) - 1
+    
+    for i in range(mx):
+        for j in range(mx):
+            if j + 1 > mx:
+                continue
+            if a_list[j] > a_list[j+1]:
+                a_list[j], a_list[j+1] = a_list[j+1], a_list[j]
+    
+    return a_list
+```
+
+#### Analysis:
+I have never actually written a bubble sort before. Mainly because I know it's probably the most inefficient sorting algorithm there is. It never even occured to me to that it might be a good interview question!
+
+As you can see, its pretty terrible. If the size of the list is huge, you're going to have a bad time. 
+
+I would say it's O(n^2) runtime and O(1) for space.

@@ -1,0 +1,15 @@
+one missing
+binary
+repeated in array
+fibonacci
+horizontal
+palindrome
+flip it
+reverse a string
+merge inter ranges
+Reverse singly linked list
+numbers and ranges
+unique chars in a string
+Count the leaves
+Bubble Sort
+Insert at end of Single linked list
