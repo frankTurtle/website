@@ -301,3 +301,59 @@ I have never actually written a bubble sort before. Mainly because I know it's p
 As you can see, its pretty terrible. If the size of the list is huge, you're going to have a bad time. 
 
 I would say it's O(n^2) runtime and O(1) for space.
+
+## Problem Fifteen
+#### Name:
+Inserting a Node at the End of a Singly Linked List
+
+#### Description:
+Write a function to insert a node at the end of a Singly Linked-List.
+Click Use Me at the top to check the structure of ```Node```.
+
+#### Example:
+```python 
+LinkedList: 1->2 , Head = 1
+
+insertAtEnd(1) ==> 1->2->1
+
+insertAtEnd(2) ==> 1->2->2
+
+insertAtEnd(3) ==> 1->2->3
+```
+
+#### Solution:
+```python
+class SinglyLinkedList:
+    #constructor
+    def __init__(self):
+        self.head = None
+        
+    #method for setting the head of the Linked List
+    def setHead(self,head):
+        self.head = head
+                      
+    #method for inserting a new node at the end of a Linked List   
+    def insertAtEnd(self,data):
+        setMe = Node()
+        setMe.setData(data)
+        
+        if not self.head: 
+            self.setHead(setMe)
+            return
+            
+        tmp = self.head
+        
+        while tmp.getNext():
+            tmp = tmp.getNext()
+        tmp.setNext(setMe)
+```
+
+#### Analysis:
+Overall not too difficult either. One thing that tripped me up was my while loop. It kept failing me because I only had it as
+```python
+while tmp:
+    tmp = tmp.getNext()
+```
+But I made it through alright. You basically just loop through to the very end, and then ```setNext()```  to the node you created. One thing I did not like was the ```Node``` class I was given to use. The constructor doesn't take any arguments!
+
+I would say it's O(n) runtime and O(1) for space also.
