@@ -6,17 +6,41 @@ read_date: 2019-08-26
 header:
     teaser: https://images-na.ssl-images-amazon.com/images/I/510kKzv-1mL._SX322_BO1,204,203,200_.jpg
 report_intro:
-    score: 9
+    score: 8
     link_url: https://smile.amazon.com/Dawn-New-Everything-Encounters-Reality/dp/1627794093
 ---
 
-I'm currently reading this book as well. Check out the notes I've taken though.
+Bridging the gap between tech mania and the experience of being inside the human body, Dawn of the New Everything is a look at what it means to be human at a moment of unprecedented technological possibility.
+
+Through a fascinating look back over his life in technology, Jaron Lanier, an interdisciplinary scientist and father of the term “virtual reality,” exposes VR’s ability to illuminate and amplify our understanding of our species, and gives readers a new perspective on how the brain and body connect to the world. An inventive blend of autobiography, science writing, philosophy and advice, this book tells the wild story of his personal and professional life as a scientist, from his childhood in the UFO territory of New Mexico, to the loss of his mother, the founding of the first start-up, and finally becoming a world-renowned technological guru.
+
+Understanding virtual reality as being both a scientific and cultural adventure, Lanier demonstrates it to be a humanistic setting for technology. While his previous books offered a more critical view of social media and other manifestations of technology, in this book he argues that virtual reality can actually make our lives richer and fuller.
 
 <div style="clear: both;"></div>
 
 <!--more-->
 
 ---
+
+# What I liked
+* It gave me some interesting insights in to the world of VR
+* It definitely had some hidden gems into the insights and beliefs of Jaron Lanier that I found interesting
+    * I never knew much about the guy, but I've heard his name several places
+    * The initial introduction to him was on a podcast that I listen to, but I cannot recall which
+    * This book has been in my queue for quite some time
+* Not only were there hidden gems into what he thought, but just for life in general. And for that fact, for the VR / Computer industry as a whole
+* I enjoy hearing about the past and the starting of industries and things I enjoy today
+* Jaron's analysis and thoughts into certain situations were very enjoyable for me
+
+# What I did not like so much
+* I personally could've done without so much of the back story of Jaron Lanier, and I felt like it sometimes took away from it for me
+* Really not much else I didn't like
+
+# Takeaway
+* VR is cool. While I do not own a headset, I mess around with my phone's VR
+* I would love to be able to work with it in the future
+* There were some great dialog discussing the AI community and how it was or is almost like a religion to some people
+* Excellent points on how people are OK with giving away their data and privacy in the name of free services
 
 # Notes
 * There are two main tribes. The hackers and the suits. Don't trust the suits
