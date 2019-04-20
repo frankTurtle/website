@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-Sample document listing for the collection `_books`.
+Below you will find the most recent books I've read or am currently reading.
