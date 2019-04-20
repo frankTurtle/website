@@ -13,3 +13,6 @@ unique chars in a string
 Count the leaves
 Bubble Sort
 Insert at end of Single linked list
+Insert stars
+Max Gain
+Insert at the BEGINNING of a singly linked list
