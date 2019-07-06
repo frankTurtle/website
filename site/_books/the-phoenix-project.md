@@ -24,12 +24,28 @@ In a fast-paced and entertaining style, three luminaries of the DevOps movement 
 
 ---
 
-I'm currently reading this :)
+I'll be honest, I forgot to write a review of this when I finished it, so I do not remember too much about liked / disliked. 
 
 # What I liked
+* It was a great and concrete introduction for me to DevOps
+* I had a general idea of how and why DevOps was needed, but not as indepth of an explanation as this provided
+* I found a lot of it incredibly relatable as I used to be in IT, and now I'm a software engineer - Which, I suppose is technically IT still
+* I enjoyed all of the characters within the organization - I cannot even remember the name of the company ... - and I could pinpoint some people who were essentially clones
+* I found the thoughts and the insights into the reasoning behind it all very interesting
+* It provided me a way to view the infrastructure as a whole that I had not necessarily thought about before
+* It was actually incredibly fascinating to think about the entire procedure as a whole
+* I have some experience with thinking about the bigger picture - from more of an architectural point of view. From CI and Jenkins build / deploy procedures I've implemented on projects
+* The over-importance of a single point of failure person was very interesting
 
 # What I did not like so much
+* Initially it was a little rough around the edges for me
+* I did not realize that it was building a story around the need and want for the evolution of the DevOps mindset
+* I remember thinking it was incredibly slow
+* I also didn't realize that it was written as a narrative and not a how-to guide - That's on me though!
 
 # Takeaway
+* I would highly recommend it for anyone in the IT world - Even not just IT. The thoughts and decisions implemented carry over into several disciplines
+* I will probably read it again, and skip the intro nonsense
 
 # Notes
+* Nothing of note
